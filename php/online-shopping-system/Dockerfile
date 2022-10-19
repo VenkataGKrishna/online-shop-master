@@ -1,4 +1,4 @@
 FROM php:7.3.3-apache
-RUN apt update -y
+RUN apt update
 RUN docker-php-ext-install mysqli
 EXPOSE 80
