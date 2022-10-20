@@ -16,7 +16,7 @@ node{
         {
             sh "docker login -u venkata1981 -p ${dockerhub}"
         }
-        sh 'docker push venkata1981/mysql'
+        sh "docker push venkata1981/mysql"
         
         //docker.withRegistry( 'https://registry.hub.docker.com', 'DockerHubPassword' ) {
              
